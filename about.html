@@ -11,6 +11,7 @@
     </u>
   </a>
   <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 
@@ -25,7 +26,7 @@
             </ul> 
             <header>
             <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&subset=vietnamese" rel="stylesheet">
-            <h1 style="font-family: 'Dancing Script', cursive; color: tomato; font-size: 300%;">
+            <h1 style="font-family: 'Dancing Script', cursive; color: tomato; font-size: 300%; display: block;">
                 Em Từng hỏi bài anh:>
             </h1>
 
@@ -36,16 +37,20 @@
     <h1>
         Tôi nhớ em vá trời, thề là cứ mỗi lần không khí lạnh đi mấy độ là tim anh thổn thức về những kỷ niệm của tôi và em.
     </h1>
+
+    <div id="image">Hover over an image below to display here.</div>
+
     <div class="grid" style=".grid img {width: 70%;}" >
-            <img src="images/EmCuoiXinh.jpg" alt="Em ngau vai" width="300">
-            <img src="images/EmDaXinhLaiConSlay.jpg" alt="Story em" width="300">
-            <img src="images/storyem.jpg" alt="Em di choi" width="300">
-            <img src="images/storyem1.jpg" alt="Em di choi can tho" width="300">
-            <img src="images/em_giainhatstartup.jpg" alt="IG Em ay" width="300">
-            <img src="images/em_giainhatstartupcuoixinh.jpg" alt="EM" width="300">
-            <img src="images/demhomayanhthaothucviem.jpg" alt="Em xinh" width="300">
-            <img src="images/nightcafe.jpg" alt="Em xinh" width="300">
+            <img class="image" src="images/EmCuoiXinh.jpg" alt="Em ngau vai" width="300" onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/EmDaXinhLaiConSlay.jpg" alt="Story em" width="300" onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/storyem.jpg" alt="Em di choi" width="300"onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/storyem1.jpg" alt="Em di choi can tho" width="300"onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/em_giainhatstartup.jpg" alt="IG Em ay" width="300"onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/em_giainhatstartupcuoixinh.jpg" alt="EM" width="300"onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/demhomayanhthaothucviem.jpg" alt="Em xinh" width="300"onmouseover="upDate(this)" onmouseout="undo()">
+            <img class="image" src="images/nightcafe.jpg" alt="Em xinh" width="300"onmouseover="upDate(this)" onmouseout="undo()">
     </div>
-    <script src="script.js"></script>
+    
+    <script src="javascript.js"></script>
 </body>
 </html>
