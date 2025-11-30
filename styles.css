@@ -141,7 +141,7 @@ body #image {
     border: 5px solid black;
     padding: 10px;
     background-color: ivory;
-    opacity: 50%;
+    opacity: 20%;
     transition: transform 0.5s, border 0.5s , opacity 0.2s;
 }
 
@@ -156,4 +156,5 @@ body #image {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 
